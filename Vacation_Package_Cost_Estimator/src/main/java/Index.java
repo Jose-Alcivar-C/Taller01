@@ -1,13 +1,18 @@
-
 public class Index {
 
-	
 	public static void main(String[] args) {
 		
-		Vacation vacation = new Vacation("Ecuador", 10, 20);
-		System.out.print("-----El precio de su viaje es----\n");
+		Vacation vacation = new Vacation("Paris", 4, 4);
 		
-		System.out.print(Calculator.calculateVacation(vacation));
+		int price = Calculator.calculateVacation(vacation);
+		
+		if(price == -1) {
+			System.out.print(price);
+		}
+		
+		else {
+			System.out.print("\nTotal cost = $" + price);
+		}
 
 	}
 
