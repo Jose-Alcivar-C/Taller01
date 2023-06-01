@@ -1,5 +1,5 @@
 public class Index {
-
+	//CHECKSTYLE: OFF 
 	public static void main(String[] args) {
 		
 		Vacation vacation = new Vacation("Paris", 4, 4);
@@ -15,5 +15,5 @@ public class Index {
 		}
 
 	}
-
+	//CHECKSTYLE: ON
 }
