@@ -27,6 +27,21 @@ public class Calculator {
 		
 		else {
 			
+			if( !(vacation.getDestination() instanceof String) ) {
+				System.out.print("Destination must be a string");
+				return -1;
+			}
+			
+			if( !((Object)vacation.getNumberTravelers() instanceof Integer) ) {
+				System.out.print("NumberTravelers must be a int");
+				return -1;
+			}
+			
+			if( !((Object)vacation.getDaysDuration() instanceof Integer) ) {
+				System.out.print("DaysDuration must be a int");
+				return -1;
+			}
+			
 			System.out.print("Base price = $1000\n\n");
 			
 			//If the destination is a popular tourist spot
