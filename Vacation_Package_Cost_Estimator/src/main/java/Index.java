@@ -1,8 +1,8 @@
 public class Index {
-	//CHECKSTYLE: OFF 
+
 	public static void main(String[] args) {
 		
-		Vacation vacation = new Vacation("Paris", 4, 4);
+		Vacation vacation = new Vacation("Paris", 5, 4, "Adventure Activities");
 		
 		int price = Calculator.calculateVacation(vacation);
 		
@@ -15,5 +15,5 @@ public class Index {
 		}
 
 	}
-	//CHECKSTYLE: ON
+	
 }

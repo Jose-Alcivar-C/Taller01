@@ -3,11 +3,20 @@ public class Vacation {
 	private String Destination;
 	private int  numberTravelers;
 	private int daysDuration;
+	private String optional;
 	
 	public Vacation(String destination, int numberTravelers, int daysDuration){
 		this.Destination = destination;
 		this.numberTravelers = numberTravelers;
 		this.daysDuration = daysDuration;
+		this.optional = null;
+	}
+	
+	public Vacation(String destination, int numberTravelers, int daysDuration, String optional){
+		this.Destination = destination;
+		this.numberTravelers = numberTravelers;
+		this.daysDuration = daysDuration;
+		this.optional = optional;
 	}
 
 	public String getDestination() {
@@ -32,6 +41,15 @@ public class Vacation {
 
 	public void setDaysDuration(int daysDuration) {
 		this.daysDuration = daysDuration;
+	}
+	
+
+	public String getOptional() {
+		return optional;
+	}
+
+	public void setOptional(String optional) {
+		this.optional = optional;
 	}
 
 	@Override

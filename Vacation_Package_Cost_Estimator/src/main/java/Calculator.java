@@ -9,6 +9,11 @@ public class Calculator {
 		popularPlaces.put("Paris", 500);
 		popularPlaces.put("New York City", 600);
 		
+		Map<String, Integer> optionalAddOns = new HashMap<String, Integer>();
+		optionalAddOns.put("All-Inclusive", 200);
+		optionalAddOns.put("Adventure Activities", 150);
+		optionalAddOns.put("Spa and Wellness", 100);
+		
 		int baseCost = 1000;
 		
 		System.out.print("------Travel details------\n");
@@ -73,6 +78,17 @@ public class Calculator {
 			if( ( vacation.getDaysDuration() >= 30 ) || ( vacation.getNumberTravelers() == 2 ) ) {
 				baseCost = baseCost - 200;
 				System.out.print("2 travelers or vacations of 30 or more days (-$200) = $" + baseCost + "\n");
+			}
+			
+			if(vacation.getOptional() != null) {
+				
+				if( optionalAddOns.containsKey(vacation.getOptional()) ) {
+					int add = optionalAddOns.get( vacation.getOptional() );
+					int cost = vacation.getNumberTravelers() * add;
+					baseCost = baseCost + cost;
+					
+					System.out.print(vacation.getOptional() + " package (+$" + add + " per traveler) = $" + baseCost + "\n");
+				}
 			}
 			
 			return baseCost;
