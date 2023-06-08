@@ -1,13 +1,4 @@
-src/main/java/Calculator.java:4:	CommentRequired:	CommentRequired: Class comments are required
-src/main/java/Calculator.java:4:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
 src/main/java/Calculator.java:6:	CommentRequired:	CommentRequired: Public method and constructor comments are required
-src/main/java/Index.java:1:	CommentRequired:	CommentRequired: Class comments are required
-src/main/java/Index.java:1:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
 src/main/java/Index.java:3:	CommentRequired:	CommentRequired: Public method and constructor comments are required
-src/main/java/Vacation.java:1:	CommentRequired:	CommentRequired: Class comments are required
-src/main/java/Vacation.java:3:	CommentRequired:	CommentRequired: Field comments are required
-src/main/java/Vacation.java:4:	CommentRequired:	CommentRequired: Field comments are required
-src/main/java/Vacation.java:5:	CommentRequired:	CommentRequired: Field comments are required
-src/main/java/Vacation.java:6:	CommentRequired:	CommentRequired: Field comments are required
 src/main/java/Vacation.java:8:	CommentRequired:	CommentRequired: Public method and constructor comments are required
 src/main/java/Vacation.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
