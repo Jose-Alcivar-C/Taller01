@@ -1,10 +1,31 @@
+/**
+* Vacation
+*/
 public class Vacation {
 
+	/**
+	* Destination
+	*/
 	private String Destination;
+	
+	/**
+	* numberTravelers
+	*/
 	private int  numberTravelers;
+	
+	/**
+	* daysDuration
+	*/
 	private int daysDuration;
+	
+	/**
+	* optional
+	*/
 	private String optional;
 	
+	/**
+	* Vacation
+	*/
 	public Vacation(String destination, int numberTravelers, int daysDuration){
 		this.Destination = destination;
 		this.numberTravelers = numberTravelers;
@@ -12,6 +33,9 @@ public class Vacation {
 		this.optional = null;
 	}
 	
+	/**
+	* Vacation
+	*/
 	public Vacation(String destination, int numberTravelers, int daysDuration, String optional){
 		this.Destination = destination;
 		this.numberTravelers = numberTravelers;

@@ -1,5 +1,11 @@
+/**
+* Index
+*/
 public class Index {
 
+	/**
+	* main
+	*/
 	public static void main(String[] args) {
 		
 		Vacation vacation = new Vacation("Paris", 5, 4, "Adventure Activities");

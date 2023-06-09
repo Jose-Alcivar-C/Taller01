@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.21.0" timestamp="2023-06-08T18:47:16.499">
+<file name="D:\Usuario\Documentos\totto\materias\11avo semestre\Ingenierìa de software 2\Taller01\Taller01\Vacation_Package_Cost_Estimator\src\main\java\Calculator.java">
+<violation beginline="6" endline="97" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Documentation" class="Calculator" method="calculateVacation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<file name="D:\Usuario\Documentos\totto\materias\11avo semestre\Ingenierìa de software 2\Taller01\Taller01\Vacation_Package_Cost_Estimator\src\main\java\Index.java">
+<violation beginline="3" endline="17" begincolumn="23" endcolumn="9" rule="CommentRequired" ruleset="Documentation" class="Index" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+<file name="D:\Usuario\Documentos\totto\materias\11avo semestre\Ingenierìa de software 2\Taller01\Taller01\Vacation_Package_Cost_Estimator\src\main\java\Vacation.java">
+<violation beginline="8" endline="13" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" class="Vacation" method="Vacation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+<violation beginline="15" endline="20" begincolumn="16" endcolumn="9" rule="CommentRequired" ruleset="Documentation" class="Vacation" method="Vacation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Public method and constructor comments are required
+</violation>
+</file>
+</pmd>

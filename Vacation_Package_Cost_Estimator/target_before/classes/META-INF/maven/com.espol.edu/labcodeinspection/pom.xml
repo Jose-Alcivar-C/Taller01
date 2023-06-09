@@ -5,7 +5,7 @@
 	<groupId>com.espol.edu</groupId>
 	<artifactId>labcodeinspection</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Challenge Lab Code Inspection</name>
+	<name>Lab Code Inspection</name>
 	<description>Software Engineering II</description>
 	
 	<build>

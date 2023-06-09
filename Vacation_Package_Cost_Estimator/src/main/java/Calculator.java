@@ -1,8 +1,14 @@
 import java.util.Map;
 import java.util.HashMap;
 
+/**
+* Calculator
+*/
 public class Calculator {
 
+	/**
+	* calculate Vacation
+	*/
 	public static int calculateVacation(Vacation vacation) {
 		
 		Map<String, Integer> popularPlaces = new HashMap<String, Integer>();
